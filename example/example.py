@@ -4,14 +4,14 @@ class myclass(object):
     """
     Class holding a single member variable x.
 
-    Parameters:
+    Parameters
     ----------
-        val: float, mandatory
+        val : float, mandatory
             initial value of the instance variable x
 
-    Attributes:
+    Attributes
     ----------
-        var: float storing member value x
+        var : float storing member value x
     """
     def __init__(self, val):
         self.x = val
@@ -40,10 +40,12 @@ class myclass(object):
 def myfunc(x):
     """
     returns the square of the argument x.
+
     Parameters
     ----------
         x : float, mandatory
             value that you want to square
+
     Returns
     -------
         float, desired square of x 
