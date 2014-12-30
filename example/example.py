@@ -3,10 +3,12 @@
 class myclass(object):
     """
     Class holding a single member variable x.
-    Parameters
+
+    Parameters:
     ----------
         val: float, mandatory
             initial value of the instance variable x
+
     Attributes:
     ----------
         var: float storing member value x
