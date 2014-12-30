@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
 .. automodule:: example
+    :members:
 
 .. autoclass:: myclass
     :members:
