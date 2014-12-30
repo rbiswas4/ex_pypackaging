@@ -14,8 +14,6 @@ Contents:
 .. automodule:: example
     :members:
 
-.. autoclass:: myclass
-    :members:
 
 Indices and tables
 ==================
