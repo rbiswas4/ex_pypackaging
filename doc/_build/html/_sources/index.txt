@@ -11,7 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+.. automodule:: example
 
+.. autoclass:: myclass
+    :members:
 
 Indices and tables
 ==================
