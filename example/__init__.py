@@ -1,2 +1,2 @@
-import example
-import second
+from . import example
+from . import second 

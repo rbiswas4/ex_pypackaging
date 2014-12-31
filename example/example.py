@@ -3,7 +3,6 @@
 Example of a module with a class and a function autodocumented by sphinx and
 readthedos.
 """
-
 class myclass(object):
     """
     Class holding a single member variable x.
