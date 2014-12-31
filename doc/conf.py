@@ -20,8 +20,8 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 # modifying searchpath
-# sys.path.insert(0, os.path.abspath('../example'))
-print sys.path
+# sys.path.insert(0, os.path.abspath('example'))
+#print sys.path
 
 # -- General configuration ------------------------------------------------
 
