@@ -15,7 +15,7 @@ class myclass(object):
 
     Attributes
     ----------
-        var : float storing member value x
+        var : float storing member value x 
     """
     def __init__(self, val):
         self.x = val

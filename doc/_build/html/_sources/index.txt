@@ -13,6 +13,8 @@ Contents:
 
 .. automodule:: example
     :members:
+.. automodule:: second
+    :members:
 
 
 Indices and tables
