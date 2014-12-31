@@ -11,9 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-.. automodule:: example.example
+.. automodule:: myexpackage.classmodule
     :members:
-.. automodule:: example.second
+.. automodule:: myexpackage.funcmodule
     :members:
 
 
