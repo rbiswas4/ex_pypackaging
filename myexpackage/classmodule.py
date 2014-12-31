@@ -9,33 +9,57 @@ class myclass(object):
 
     Parameters
     ----------
-        val : float, mandatory
+    val : float, mandatory
             initial value of the instance variable x
 
     Attributes
     ----------
-        var : float storing member value x 
+    var : float storing member value x 
+
     """
     def __init__(self, val):
+        """
+        instantiate class
+
+        """
         self.x = val
     
     @property
     def var(self):
         return self.x
+
     def setvar(self, x):
         """
         set the value of the member variable var
+
         Parameters
         ----------
-            x : float, mandatory
-                value to which var will be set
+        x : float, mandatory
+            value to which var will be set
+
         Returns 
-            None
+        -------
+        None
+
         -------
         """
         self.x = x
 
     def square(self):
+
+        """
+        Squares the value of the class attribute var
+        
+        Parameters
+        ----------
+        None
+
+        Returns
+        -------
+        None
+
+        """
+
         x = self.x
         self.x = x*x
 
