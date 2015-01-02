@@ -20,7 +20,6 @@ class myclass(object):
     def __init__(self, val):
         """
         instantiate class
-
         """
         self.x = val
     
