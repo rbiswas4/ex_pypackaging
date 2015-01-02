@@ -14,4 +14,5 @@ Objectives:
 - Continuous integration: Check if sets of tests are passing for a particular commit. 
 - Versioning: Mapping git hashes to an easily readable version number so that position in code history is trivially available. For branches, this should reference the version of the parent (may or may not be master), and the evolution of the branch. 
 - Can I run on a virtual env and install packages that the code may depend on as part of the setup? Do these go into pip-requirements? What if installing some dependency is non-trivial and cannot be achieved by pip. [Our package may depend on other packages. How do we test this in a virtual environment the same way that readthedocs will do.] 
-- Why does sphinx need to run the file and find errors?
+- Why does sphinx need to run the file and find errors? (probably to get inherited properties?)
+- How can sphinx help with obtaining attributes and methods of subclasses?
