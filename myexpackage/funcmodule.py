@@ -15,10 +15,11 @@ def newfunc(x):
 
     Returns
     -------
-    float, returns the argument f the function
+    xvalue : float, returns the argument f the function
 
 
     .. note:: Yes, this is a stupid function.
+
     """
 
     return x

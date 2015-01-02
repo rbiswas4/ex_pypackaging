@@ -39,9 +39,8 @@ class myclass(object):
 
         Returns 
         -------
-        None
-
-        -------
+        None 
+        
         """
         self.x = x
 
@@ -75,6 +74,6 @@ def myfunc(x):
 
     Returns
     -------
-        float, desired square of x 
+    xsquared: float, desired square of x 
     """
     return x *x 
