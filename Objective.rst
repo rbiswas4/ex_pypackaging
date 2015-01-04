@@ -15,4 +15,6 @@ Objectives:
 - Versioning: Mapping git hashes to an easily readable version number so that position in code history is trivially available. For branches, this should reference the version of the parent (may or may not be master), and the evolution of the branch. 
 - Can I run on a virtual env and install packages that the code may depend on as part of the setup? Do these go into pip-requirements? What if installing some dependency is non-trivial and cannot be achieved by pip. [Our package may depend on other packages. How do we test this in a virtual environment the same way that readthedocs will do.] 
 - Why does sphinx need to run the file and find errors? (probably to get inherited properties?)
-- How can sphinx help with obtaining attributes and methods of subclasses?
+- Can sphinx  obtaining all attributes and methods of a subclasses, if only new attributes and methods are documented in the subclass docstrings, by pulling the relevent attributes/methods from the parent classes within the project?
+- How can we record the state of multiple sub-projects used for a particular project. [ie. if I have a project that uses sub-projects proj1 and proj2 and have been tested with certain versions, how do I keep a record of that in proj, but also update proj1 when that gets updated and retest in a nice way] (I believe git-submodules and continuous integration together should be able to help, but not certain) 
+
