@@ -21,6 +21,8 @@ def newfunc(x):
 
     .. note:: Yes, this is a stupid function.
 
+    >>> newfunc(2.)
+    2.0
     """
 
     return x
@@ -52,3 +54,7 @@ def readmatrix(fname, exampledata=True):
     mat = np.loadtxt(fname)
 
     return mat
+if __name__ == "__main__":
+
+   import doctest
+   doctest.testmod()
