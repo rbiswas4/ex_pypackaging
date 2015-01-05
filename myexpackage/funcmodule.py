@@ -45,19 +45,19 @@ def readmatrix(fname, exampledata=True):
     Returns
     -------
     matrix : `np.ndarray`
-
+    # >>> import numpy as np
     >>> d  = readmatrix('smallmatrix.dat')
-    >>> d[0][0]
-    3.0
+    >>> d[0]
+    array([3. , 2., 1.])
     """
     import numpy as np
     import os
 
-    print _here
+    # print _here
     if exampledata:
         dirname = _here 
         fname = os.path.join(_here, 'example_data', fname) 
-    print fname 
+    # print fname 
     mat = np.loadtxt(fname)
 
     return mat
