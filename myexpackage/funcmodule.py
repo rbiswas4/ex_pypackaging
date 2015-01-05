@@ -21,8 +21,11 @@ def newfunc(x):
 
     .. note:: Yes, this is a stupid function.
 
-    >>> newfunc(2.)
-    2.0
+    >>> x = newfunc(2.)
+    >>> x * x
+    4.0
+    >>> newfunc(3.)
+    3.0
     """
 
     return x
@@ -42,6 +45,10 @@ def readmatrix(fname, exampledata=True):
     Returns
     -------
     matrix : `np.ndarray`
+
+    >>> d  = readmatrix('smallmatrix.dat')
+    >>> d[0][0]
+    3.0
     """
     import numpy as np
     import os
