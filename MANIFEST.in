@@ -1,1 +1,1 @@
-include data/smallmatrix.dat
+include data/*.dat

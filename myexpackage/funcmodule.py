@@ -2,7 +2,8 @@
 Added to check the building of documentation with two modules
 
 """
-_here = __file__ 
+import os
+_here = os.path.dirname(os.path.realpath(__file__))
 def newfunc(x):
     """
     returns the argument
