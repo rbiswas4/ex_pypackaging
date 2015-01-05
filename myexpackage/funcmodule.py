@@ -46,7 +46,8 @@ def readmatrix(fname, exampledata=True):
 
     print _here
     if exampledata:
-        fname = os.path.join(_here, fname) 
+        dirname = _here 
+        fname = os.path.join(_here, 'example_data', fname) 
     print fname 
     mat = np.loadtxt(fname)
 

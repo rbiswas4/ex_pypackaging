@@ -11,5 +11,5 @@ setup(# package information
       packages=['myexpackage'],
       # What data to include as packages
       include_package_data=True,
-      package_data={'': ['data/*.dat']}
+      package_data={'': ['example_data/*.dat']}
       )

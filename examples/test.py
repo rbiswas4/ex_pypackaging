@@ -1,4 +1,4 @@
 import myexpackage.funcmodule as fm
 
-d  = fm.readmatrix('data/smallmatrix.dat') 
+d  = fm.readmatrix('smallmatrix.dat') 
 print d
