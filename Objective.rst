@@ -4,8 +4,9 @@ The purpose of packaging code is to make life easier. This means that there are
 features, which might be desirable.
 
 We use square brackets to add a more detailed explanataion of the point
+
 Objectives:
-----------
+------------
 
 - package code, so that the modules in the package can be imported from anywhere in the system either because `python setup.py install` has been used, or `python setup.py build` has been used to install them to a build directory that can be added to python sites. [While it is possible to append pythonpath, both dynamically and statically, there are good reasons to use the setup method). First, this is more standard convention which is necessary for installers like pypy or pip. Secondly, it is a useful way to test code on someone's machine through virtual environments. This is also what happens in readthedocs, which we will use for hosting documentation.]
 - Package code in a way so that small datafiles shipped with the code can be found without requiring one to know the absolute paths to data. This is largely so that examples using the code may be written. [Can probably do this through something like _here = something.__file__, and defining data locations relative to that. Is there a better way?]
