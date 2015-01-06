@@ -48,7 +48,7 @@ def readmatrix(fname, exampledata=True):
     # >>> import numpy as np
     >>> d  = readmatrix('smallmatrix.dat')
     >>> d[0]
-    array([3. , 2., 1.])
+    array([3., 2., 1.])
     """
     import numpy as np
     import os
