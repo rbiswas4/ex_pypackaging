@@ -45,6 +45,7 @@ def readmatrix(fname, exampledata=True):
     Returns
     -------
     matrix : `np.ndarray`
+    
     >>> import numpy as np
     >>> d  = readmatrix('smallmatrix.dat')
     >>> max( abs (d[0] - np.array([3., 2., 1.])) ) < 1.0e-4
@@ -61,7 +62,3 @@ def readmatrix(fname, exampledata=True):
     mat = np.loadtxt(fname)
 
     return mat
-if __name__ == "__main__":
-
-   import doctest
-   doctest.testmod()
