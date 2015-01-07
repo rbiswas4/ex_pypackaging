@@ -21,6 +21,8 @@ def newfunc(x):
 
     .. note:: Yes, this is a stupid function.
 
+    Examples
+    --------
     >>> x = newfunc(2.)
     >>> x * x
     4.0

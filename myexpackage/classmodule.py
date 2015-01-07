@@ -75,12 +75,10 @@ def myfunc(x):
     -------
     xsquared: float, desired square of x 
 
+    Examples
+    --------
     >>> myfunc(2.0)
     4.0
     """
     return x *x 
 
-if __name__ == "__main__":
-
-    import doctest
-    doctest.testmod()
