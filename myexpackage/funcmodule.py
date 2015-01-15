@@ -48,6 +48,9 @@ def readmatrix(fname, exampledata=True):
     -------
     matrix : `np.ndarray`
     
+    Examples
+    --------
+
     >>> import numpy as np
     >>> d  = readmatrix('smallmatrix.dat')
     >>> max( abs (d[0] - np.array([3., 2., 1.])) ) < 1.0e-4
